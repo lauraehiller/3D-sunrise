@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Assignment 3</title>
+  </head>
+  
+  
+  <body onload="main()">
+	
+    <canvas id="webgl" width="800" height="500">
+    Please use a browser that supports "canvas"
+    </canvas>
+	<p>
+	<button type = "button" id="normalOn">Normal On</button>
+	<button type = "button" id="normalOff">Normal Off</button>
+	<button type = "button" id="lightOn">Light On</button>
+	<button type = "button" id="lightOff">Light Off</button>
+	</p>
+	<p>
+	<button type = "button" id="sunriseOn">Sunrise On</button>
+	<button type = "button" id="sunriseOff">Sunrise Off</button>
+	</p>
+	<p>
+	Light x <input type="range" min="-500" max = "500" value="0" class="slider" id="lightSlideX">
+	Light y <input type="range" min="-500" max = "500" value="0" class="slider" id="lightSlideY">
+	Light z <input type="range" min="-500" max = "500" value="0" class="slider" id="lightSlideZ">
+	</p>
+	<p>
+		To move around the world use the WASD keys.  To rotate the camera use either the QE keys, or the mouse.
+	</p>
+	<p>
+		Don't forget to explore!
+	</p>
+
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+	<script src="lib/cuon-matrix-cse160.js"></script>
+	<script src="Camera.js"></script>
+    <script src="World.js"></script>
+	<script src="Triangle.js"></script>
+	<script src="Cube.js"></script>
+	<script src="Cone.js"></script>
+	<script src="Cylinder.js"></script>
+	<script src="Pyramid.js"></script>
+	<script src="Textures.js"></script>
+	<script src="Sphere.js"></script>
+	<script src="Circle.js"></script>
+	<script src="Light.js"></script>
+	<script src="SpotLight.js"></script>
+	<script src="Mushroom.js"></script>
+	<script src="City.js"></script>
+  </body>
+</html>
